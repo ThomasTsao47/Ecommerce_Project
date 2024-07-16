@@ -349,6 +349,7 @@ Image designed using <a href="https://app.diagrams.net/">draw.io</a>
   * (查看願望清單 vs 購買) 比率
   * (加入願望清單 vs 購買) 比率
   * **用戶最近一次加入購物車前的行為路徑**
+
 ### 7-2 建立特徵（基於產品 類別/子類別）
   * (加入購物車 vs 購買) 比率 - 基於 Category
   * (加入購物車 vs 購買) 比率 - 基於 SubCategory
