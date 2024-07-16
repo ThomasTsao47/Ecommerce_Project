@@ -1,4 +1,4 @@
-# Ecommerce_Project（Python）
+# 電商客戶行為分析與折扣優化（Python）
 
 [Colab Notebook 完整文字內容及程式碼在這裡](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Files/Ecommerce_Project.ipynb)
 
