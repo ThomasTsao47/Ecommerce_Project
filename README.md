@@ -1,6 +1,6 @@
 # Ecommerce_Project（Python）
 
-[Colab Notebook 完整程式碼內容在這裡](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Files/Ecommerce_Project.ipynb)
+[Colab Notebook 完整文字內容及程式碼在這裡](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Files/Ecommerce_Project.ipynb)
 
 ## 0.目錄
 1. 專案概述
@@ -111,7 +111,9 @@ warnings.filterwarnings('ignore')
 **清洗後資料**：<br>
 ![Cleaned Data](Images/Cleaned_Data.png)<br><br>
 **筆數及型態**：<br>
-![Cleaned Data Info](Images/Cleaned_Data_Info.png)<br><br>
+![Cleaned Data Info](Images/Cleaned_Data_Info.png)<br>
+
+[完整文字內容及程式碼在這裡](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Files/Ecommerce_Project.ipynb)
 
 ## 6.資料分析
 此章節將透過單變量分析來掌握特徵的資料分布，並透過多變量分析了解特徵間的關係，以便後續能在**特徵工程**和**模型建立**的章節中有所幫助。
@@ -137,8 +139,36 @@ warnings.filterwarnings('ignore')
 <br>**`Total Price` 資料分布**<br><br>
 ![Img6](Images/06_Distribution_of_Total_Price.png)
 
+[完整文字內容及程式碼在這裡](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Files/Ecommerce_Project.ipynb)
+
 ### 6-2 多變量分析
 多變量分析有助於我們了解兩個或多個特徵的關係以及其與潛在目標變數的關係。
+
+#### 6-2-1 初步探索
+我們首先想了解一些直覺上會想到的問題：
+
+##### 6-2-1-1 目前有多少用戶？其中有多少人至少購買過一次？每位顧客的平均購買次數？
+![Img7](Images/07_6-2-1-1.png)
+
+##### 6-2-1-2 用戶購買產品的平均時間？
+![Img8](Images/08_6-2-1-2.png)
+
+##### 6-2-1-3 此次購買與上次購買的平均間隔時間？
+![Img9](Images/09_6-2-1-3.png)
+
+##### 6-2-1-4 用戶是否在購買前會將產品加入購物車 or 直接購買？
+![Img10](Images/10_6-2-1-4.png)
+
+**總結與建議**
+  * 大多數用戶在電商平台上進行購物的過程是快速且高效的，但也存在少數用戶需要更長的時間來完成購買。這可能是因為他們在決策過程中需要更多的時間，或者他們在多次訪問後才完成購買
+  * 用戶在電商平台上的購買週期存在較大的差異，有些用戶在長時間內沒有再次購買產品，建議對於購買間隔較長的用戶，制定針對性的營銷策略，通過促銷、提醒等手段促進他們的再次購買
+  * **針對加入購物車的用戶**：
+    - **提醒和促銷**：可以設置購物車提醒，通過電子郵件或推播通知提醒用戶完成購買，或是提供針對性優惠或折扣，促使用戶在購物車中的商品更快結帳，特別是在他們的購物車中有商品數天未結帳時
+  * **針對直接購買的用戶**：
+    - **快速結帳體驗**：優化直接購買流程，確保用戶可以快速便捷地完成購買，提升購物體驗
+
+
+
 
 
 
