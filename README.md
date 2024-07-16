@@ -42,7 +42,7 @@
 ## 2.資料來源
 * 資料來源：[Open Data on AWS](https://aws.amazon.com/tw/opendata/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc)
 * 資料期間：2019年1月1日至2019年12月22日
-* 資料集：[Datasets](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Data/customer_data.xlsx)
+* 資料集：[Datasets](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Data)
 * 欄位字典：
 
 | 欄位名稱 | 描述 |
