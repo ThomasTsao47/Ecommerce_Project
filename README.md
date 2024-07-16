@@ -100,28 +100,18 @@ warnings.filterwarnings('ignore')
 
 ## 5.資料探索及清洗
 * 檢查是否有重複值
-* 處理缺失值
+* 檢查資料缺失情形
 * 檢查欄位是否有拼寫錯誤（typos）或不一致（inconsistency），須將文字進行調整，使規則一致。例如：
   * `Category` 出現 'Music\n'，須將單詞兩側的分隔符號去除
   * `Category` 出現 'Air conditioner' 及 'Air Conditioner'兩種值，須將兩者統一文字規則，例如統一為 'Air Conditioner'，以確保後續分析數據之正確性
 * 確認欄位計算之正確性。例如：
-  * Quantity * Rate 是否皆等於 Total Price
+  * `Quantity` * `Rate` 是否皆等於 `Total Price`
 * 調整資料型態 - 將 DateTime 欄位轉換為 datetime 格式
-
-
-
-
-## 7.資料探索及清洗
-* 檢查是否有重複值
-* 處理缺失值
-* 調整資料型態
-* 排除異常資料(影片未播，影片測試等)
-* 篩選上傳時間最晚為 113/3/31 當天結束為止的影片
 
 **清洗後資料**：<br>
 ![Cleaned Data](Images/Cleaned_Data.png)<br><br>
 **筆數及型態**：<br>
-![Cleaned Data](Images/Cleaned_Data_info.png)<br><br>
+![Cleaned Data Info](Images/Cleaned_Data_Info.png)<br><br>
 
 
 ## 5.資料收集
