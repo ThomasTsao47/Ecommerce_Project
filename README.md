@@ -117,27 +117,25 @@ warnings.filterwarnings('ignore')
 此章節將透過單變量分析來掌握特徵的資料分布，並透過多變量分析了解特徵間的關係，以便後續能在**特徵工程**和**模型建立**的章節中有所幫助。
 
 ### 6-1 單變量分析
-
 **`Category` 資料分布**<br><br>
 ![Img1](Images/01_Top10_frequently_viewed_categories.png)
 
-**`SubCategory` 資料分布**<br><br>
-![Img2](Images/02_Top10_frequently_viewed_SubCategories.png)
+<br>**`SubCategory` 資料分布**<br><br>
+![Img2](Images/02_Top10_frequently_viewed_SubCategory.png)
 
-**`Action` 資料分布**<br><br>
-![Img3](Images/Top10_frequently_viewed_categories.png)
+<br>**`Action` 資料分布**<br><br>
+![Img3](Images/03_Count_of_User_Action.png)
+
+<br>以下的 `Quantity, Rate, Total Price` 皆為數值型特徵，我們除了掌握特徵的資料分布外，也將採用**非參數方法**，使用**分位數**進行**離群值檢測**，透過將數據點進行大小順序，比較每個數據點與其他數據點的差距來辨識離群值，從中若有發現與其他數據點顯著不同的點將被視為離群值。
 
 **`Quantity` 資料分布**<br><br>
-![Img4](Images/Top10_frequently_viewed_categories.png)
+![Img4](Images/04_Distribution_of_Quantity.png)
 
-**`Rate` 資料分布**<br><br>
-![Img5](Images/Top10_frequently_viewed_categories.png)
+<br>**`Rate` 資料分布**<br><br>
+![Img5](Images/05_Distribution_of_Rate.png)
 
-**`Total Price` 資料分布**<br><br>
-![Img6](Images/Top10_frequently_viewed_categories.png)
-
-
-
+<br>**`Total Price` 資料分布**<br><br>
+![Img6](Images/06_Distribution_of_Total_Price.png)
 
 ### 6-2 多變量分析
 多變量分析有助於我們了解兩個或多個特徵的關係以及其與潛在目標變數的關係。
