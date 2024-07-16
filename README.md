@@ -113,16 +113,38 @@ warnings.filterwarnings('ignore')
 **筆數及型態**：<br>
 ![Cleaned Data Info](Images/Cleaned_Data_Info.png)<br><br>
 
+## 6.資料分析
+此章節將透過單變量分析來掌握特徵的資料分布，並透過多變量分析了解特徵間的關係，以便後續能在**特徵工程**和**模型建立**的章節中有所幫助。
+
+### 6-1 單變量分析
+
+**`Category` 資料分布**<br><br>
+![Img1](Images/01_Top10_frequently_viewed_categories.png)
+
+**`SubCategory` 資料分布**<br><br>
+![Img2](Images/02_Top10_frequently_viewed_SubCategories.png)
+
+**`Action` 資料分布**<br><br>
+![Img3](Images/Top10_frequently_viewed_categories.png)
+
+**`Quantity` 資料分布**<br><br>
+![Img4](Images/Top10_frequently_viewed_categories.png)
+
+**`Rate` 資料分布**<br><br>
+![Img5](Images/Top10_frequently_viewed_categories.png)
+
+**`Total Price` 資料分布**<br><br>
+![Img6](Images/Top10_frequently_viewed_categories.png)
+
+
+
+
+### 6-2 多變量分析
+多變量分析有助於我們了解兩個或多個特徵的關係以及其與潛在目標變數的關係。
+
+
 
 ## 5.資料收集
-以下先透過 API 取得 channelId，再透過 channelId 依序取得頻道，播放清單，影片，影片類型及觀眾留言資料，並將資料存進個人雲端硬碟。
-
-說明：
-* 使用 Youtube Data API 中的大多數方法會消耗1點 quota cost，而無效的請求也會產生至少1點的 quota cost；另外如果使用會傳回多頁結果的方法（如search.list），則每個檢索附加結果頁的請求都會產生額外的 quota cost。
-* Google Cloud API Quota Cost 歸零時間是台灣時間每日下午3點
-* Queries per day limitation（Youtube Data API）：10,000
-* [YouTube Data API (v3) - Quota Calculator](https://developers.google.com/youtube/v3/determine_quota_cost)
-  
 ### 5-1 載入 YOUTUBE API KEY
 ### 5-2 取得 channelId
 ### 5-3 Channel
@@ -131,8 +153,6 @@ warnings.filterwarnings('ignore')
 ### 5-6 VideoCategory
 ### 5-7 Comment
 
-## 6.資料合併
-因取得上述資料的過程有可能發生連線中斷的問題，所以在資料取得後皆先存進雲端硬碟，下面再從雲端路徑將各個檔案讀取進來並做合併。
 
 ## 8.資料分析
 以下分析的資料包含 Youtube 所有的影片類型：一般影片，shorts，直播，Podcast
