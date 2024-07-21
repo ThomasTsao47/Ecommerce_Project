@@ -222,6 +222,7 @@ warnings.filterwarnings('ignore')
 - 潛在的促銷活動或節日顯著影響用戶的月度活躍度，特別是10月及11月
 - 週一的活躍度最高，可能是因為新的工作週開始，用戶開始進行網購計劃或查找新的產品，以釋放 Blue Monday 的沮喪😆
 - 下午和晚間是用戶活躍的高峰時段，這些時間段可能是推廣活動的最佳時機
+
 以上發現可以幫助公司制定更有效的營銷策略，並在適當的時間點進行推廣活動和促銷活動，以最大化用戶參與度及轉化率。例如，在週一或下午和晚間進行推廣活動可能會獲得更好的效果。
 
 [完整文字內容及程式碼在這裡](https://github.com/ThomasTsao47/Ecommerce_Project/blob/main/Files/Ecommerce_Project.ipynb)
